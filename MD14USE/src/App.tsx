@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import './App.css'
 import { Task1 } from './components/tasks/Task1'
-import { Task2 } from './components/tasks/task2'
+import { Task2 } from './components/tasks/Task2'
 
 
 
