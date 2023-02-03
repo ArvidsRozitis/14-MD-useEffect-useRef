@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { Button } from "../buttons/button1";
 
-type ColorsProps = string[];
-
 export const Task3 = () => {
   const [colors, setColors] = useState<string[]>([]);
   const [input, setInput] = useState("#e66465");
@@ -41,7 +39,7 @@ export default Task3;
 const CreateBoxes = ({ colors }: any) => {
   return (
     <div>
-      {colors.map((color: string, index: number) => (
+      {colors.map((_: string, index: number) => (
         <div
           key={index}
           className="testBox"

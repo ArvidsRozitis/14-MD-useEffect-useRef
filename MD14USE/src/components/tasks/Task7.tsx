@@ -3,7 +3,6 @@ import { Button } from "../buttons/button1";
 
 export const Task7 = () => {
   const boxElementRef = useRef<HTMLElement>();
-  const clonedElementsRef = useRef<HTMLDivElement[]>([]);
 
   const copyHandler = () => {
     if (boxElementRef.current) {
