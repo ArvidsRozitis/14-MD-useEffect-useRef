@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-
 export const Task1 = () => {
   type ValuesArr = string[];
   const [values, setValues] = useState<ValuesArr>([]);
@@ -28,6 +27,7 @@ export const Task1 = () => {
   };
   return (
     <div>
+        <h2>Task 1</h2>
       <form
         onSubmit={(e) => {
           e.preventDefault();
