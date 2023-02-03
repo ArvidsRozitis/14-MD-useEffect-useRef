@@ -27,7 +27,7 @@ export const Task1 = () => {
   };
   return (
     <div>
-        <h2>Task 1</h2>
+      <h2>Task 1</h2>
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -55,4 +55,4 @@ export const Task1 = () => {
   );
 };
 
-export default Task1
+export default Task1;

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "../buttons/button1";
-import { InputTest2 } from '../inputs/InputTest2'
+import { InputTest2 } from "../inputs/InputTest2";
 
 export const Task4 = () => {
   const [count, setCount] = useState(0);

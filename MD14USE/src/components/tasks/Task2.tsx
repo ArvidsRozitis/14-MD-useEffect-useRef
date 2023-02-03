@@ -15,7 +15,6 @@ export const Task2 = () => {
   };
 
   return (
-    
     <div>
       <hr />
       <h2>Task 2</h2>
@@ -25,4 +24,4 @@ export const Task2 = () => {
   );
 };
 
-export default Task2
+export default Task2;
